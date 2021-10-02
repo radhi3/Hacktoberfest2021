@@ -1,5 +1,6 @@
-include <time.h>
+#include <time.h>
 #include<math.h>
+#include<stdio.h>
 
 //LOGIN PART
 struct authentic
@@ -23,13 +24,13 @@ void login()
 {
     char temp[50], temp1[50];
     int us = 0;
-    printf("En== 0)
+    printf("En"== 0)
     {
         printf("Pasword too Weak, Enter strong password\n");
         goto label;
             us = 1;
             printf("Enter password:\n");
-            scanf(
+            // scanf(
     }
     if(us != 1)
     {
@@ -50,7 +51,7 @@ void authenticate()
             signup();
             break;
         case 2:
-      "%s", &temp1);
+      scanf("%s", &temp1);
             if (strcmp(temp1, users[i].password) == 0)
             {
                
@@ -129,7 +130,7 @@ void billing()
         }
         if (u[i].ward_num != NULL)
         {
-            printf("~~~~~~~~~~~~~~~~bility of the stock
+            printf("~~~~~~~~~~~~~~~~bility of the stock");
             if (item[temp1].avail >= temp2)
             {
                 item[temp1].avail = item[temp1].avail - temp2;
